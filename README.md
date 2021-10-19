@@ -1,13 +1,3 @@
 # golang-postgresql
 
-CREATE TABLE IF NOT EXISTS  tasktable (
-userid INTEGER NOT NULL,
-title TEXT NOT NULL,
-body TEXT NOT NULL,
-created_at TIMESTAMP NOT NULL,
-update_on TIMESTAMP NOT NULL, 
-prority TEXT NOT NULL,
-
-);
-
-
+In this application you can store notes and read those notes from server later.
